@@ -10,6 +10,7 @@
 
     <!-- Bootstrap -->
      <script   src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -23,15 +24,15 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
     	<div id="quiz">
     			<h1 class="text-xs-center">DA'QUIZZ RODGERS</h1>
     				<div class="question"></div>
     				<div class="answer1"></div>
                     <div class="answer2"></div>
                     <div class="answer3"></div>
-    			<div id="next">-></div>
-    			<div id="previous""><-</div>
+    			<i id="previous" class="fa fa-arrow-left fa-3x" aria-hidden="true"></i>
+    			<i id="next" class="fa fa-arrow-right fa-3x" aria-hidden="true"></i>
     	</div>	
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -3,12 +3,12 @@
 
 * {
 	font-family: 'Baloo Bhaina', cursive;
+	background: grey;
 }
 
 #quiz {
 	width: 500px;
 	height: 100%;
-	background-color: lightgrey;
 	margin: 0 auto;
 	text-align: center;
 	display: block;
@@ -28,20 +28,6 @@ input[type="radio"] {
 	margin: 10%;
 }
 
-.question {
-	width: 80%;
-	background-color: darkgrey;
-	height: 50px;
-	margin: 0 auto;
-}
-
-#next, #previous {
-	background-color: darkgrey;
-	width: 30px;
-	height: 35px;
-	
-}
-
 #next {
 	float: right;
 }
@@ -49,4 +35,3 @@ input[type="radio"] {
 #previous {
 	float: left;
 }
-

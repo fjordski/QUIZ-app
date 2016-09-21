@@ -33,25 +33,25 @@ function displayNext () {
         counter = counter + 1;
         counter = counter % allQuestions.length;
         question.empty();
-        question.hide();
-        question.append(allQuestions[counter].question).fadeIn(1000);
+        question.append(allQuestions[counter].question);
 
 }
 
 //function to load previous question
 function displayPrevious () {
+        var question = $('.question');
          if (counter === 0) { // i would become 0
         counter = allQuestions.length; // so put it at the other end of the array
     }
         counter = counter - 1; // decrease by one
-        $('.question').empty();
-        $('.question').append(allQuestions[counter].question);
+        question.empty();
+        question.append(allQuestions[counter].question);
 }
 
 //answers
-var opt1 = $('#opt1 label');
-var opt2 = $('#opt2 label');
-var opt3 = $('#opt3 label');
+var opt1 = $('#opt1');
+var opt2 = $('#opt2');
+var opt3 = $('#opt3');
 
 //load answers for loaded question
 function loadAnswers (){

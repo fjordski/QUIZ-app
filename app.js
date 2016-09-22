@@ -31,7 +31,6 @@ var allQuestions = [
 ];
 
 
-
 //on start button click, display elements
 $('.start span').click(function(){
     $('.start span').hide();
@@ -77,6 +76,7 @@ function displayNext () {
 
 //display final score
 function scoreBoard() {
+    //I couuuuuld iterate over it with a for loop but nah
     if (a_array[0] == allQuestions[0].correctAnswer){
         correctAnswerCounter++;
     } if (a_array[1] == allQuestions[1].correctAnswer) {
